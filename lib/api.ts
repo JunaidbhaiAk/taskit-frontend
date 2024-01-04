@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const TaskClient = axios.create({
-  baseURL: `${process.env.BACKEND_URL}/api/task`,
+  baseURL: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/task`,
   headers:{'Authorization': `Bearer ${typeof window !== 'undefined' ? localStorage.getItem('token') : ''}`}
 });
 

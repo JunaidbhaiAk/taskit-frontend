@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AuthClient = axios.create({
-  baseURL: `${process.env.BACKEND_URL}/api/auth`,
+  baseURL: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/auth`,
 });
 
 export const addUser = async (data: any) => {
