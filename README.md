@@ -1,6 +1,5 @@
 # Tmanger Frontend
 
-A brief description of your frontend site.
 
 ## Technologies Used
 
