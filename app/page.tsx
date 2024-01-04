@@ -4,6 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Signup from "@/components/Signup";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 export default function Home() {
   const router = useRouter()
   useEffect(() => {
@@ -24,6 +25,7 @@ export default function Home() {
           <Signup />
         </TabsContent>
       </Tabs>
+      <h3 className="mt-2">Note - At first req time will require because of render free plan they close services when not in use you can read it - <Link href="https://community.render.com/t/web-service-stops-if-its-not-used-for-a-few-minutes/4692/2">here</Link></h3>
     </main>
   );
 }
