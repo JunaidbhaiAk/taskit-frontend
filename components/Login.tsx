@@ -44,7 +44,7 @@ const Login = () => {
     <Card className="w-[400px]">
       <CardHeader>
         <CardTitle>Login Form</CardTitle>
-        <CardDescription>To Use Task Manger Please Login First</CardDescription>
+        <CardDescription>For Testing purspose only (email - test@test.com, password - Test@123)</CardDescription>
       </CardHeader>
       <CardContent className="space-y-5">
         <div className="flex flex-col space-y-1.5">
