@@ -10,7 +10,7 @@ const TaskCard = (props:TaskCardProps) => {
   const {deleteTask,toggleEdit} = useTasks();
   const {title,id} = props;
   return (
-    <Card className="w-[390px] mb-2">
+    <Card className="w-[300px] mb-2">
       <CardHeader className="px-3 py-2 flex justify-between items-center flex-row">
         <CardTitle className="text-lg">{title}</CardTitle>
         <div className="space-x-0.5">

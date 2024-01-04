@@ -18,11 +18,11 @@ const Main = () => {
   },[])
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="flex items-center space-x-4 w-[500px]">
+      <div className="flex items-center space-x-4 w-[300px]">
         <TaskForm />
         <Button variant="outline" onClick={handleClick}>Logout</Button>
       </div>
-      <div className="my-4">
+      <div className="my-4 p-2">
         {tasks?.map((ele) => {
           const { taskTitle, _id } = ele;
           return <TaskCard title={taskTitle} key={_id} id={_id} />;
