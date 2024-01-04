@@ -25,7 +25,7 @@ export default function Home() {
           <Signup />
         </TabsContent>
       </Tabs>
-      <h3 className="mt-2">Note - At first req time will require because of render free plan they close services when not in use you can read it - <Link href="https://community.render.com/t/web-service-stops-if-its-not-used-for-a-few-minutes/4692/2">here</Link></h3>
+      <h3 className="mt-2 text-center">Note - At first req time will require because of render free plan they close services when not in use you can read it - <Link href="https://community.render.com/t/web-service-stops-if-its-not-used-for-a-few-minutes/4692/2">HERE</Link><br />please wait for 20 - 30 seconds after clicking any button wheater it will be login or singup</h3>
     </main>
   );
 }
